@@ -17,7 +17,7 @@ def insert(Hashtable, keyvalue, value) -> None:
 		arr = [] 
 		Hashtable[Hashing(keyvalue)] = arr
 		
-	arr.append(value)	
+	Hashtable[Hashing(keyvalue)].append(value)	
 	
 	
 # Do not edit the following code
