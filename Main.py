@@ -3,11 +3,11 @@ import re
 def display_hash(Hashtable) -> None:
 	for i in range(0, len(Hashtable)):
 		if(Hashtable[i] != None):
-			print(i, end = "")
+			print(i, end = " ")
 			for j in range(0, len(Hashtable[i])):
-				#print(" --> " + Hashtable[i][j], end = "")
-				print("--> ", end = "")
-				print(Hashtable[i][j], end = " ")
+				print(" --> " + Hashtable[i][j], end = "")
+				#print("--> ", end = "")
+				#print(Hashtable[i][j], end = " ")
 		print()
 
 def Hashing(keyvalue) -> int:
