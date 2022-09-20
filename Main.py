@@ -13,9 +13,9 @@ def Hashing(keyvalue) -> int:
 
 def insert(Hashtable, keyvalue, value) -> None:
 	# Write your code here
-	if(Hashtable[Hashing[keyvalue]] == None):
+	if(Hashtable[Hashing(keyvalue)] == None):
 		arr = [] 
-		Hashtable[Hashing[keyvalue]] = arr
+		Hashtable[Hashing(keyvalue)] = arr
 		
 	arr.append(value)	
 	
