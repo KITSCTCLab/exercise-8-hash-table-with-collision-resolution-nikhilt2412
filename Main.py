@@ -5,7 +5,7 @@ def display_hash(Hashtable) -> None:
 		if(Hashtable[i] != None):
 			print(i, end = " ")
 			for j in range(0, len(Hashtable[i])):
-				print(" --> " + Hashtable[i][j], end = " ")
+				print("--> " + Hashtable[i][j], end = " ")
 				#print("--> ", end = "")
 				#print(Hashtable[i][j], end = " ")
 		print()
